@@ -1,0 +1,61 @@
+.bg-duckface {
+    background-color: #4f4f4f;
+}
+
+
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #f9ce54;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    background-color: wheat;
+}
+
+.bi-list {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    color: #f9ce54;
+    border: none;
+}
+
+.accordion-body{
+    background-color: #4f4f4f; 
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #212529;
+    color: #f9ce54;
+}
+
+.accordion-button:is(.collapsed) {
+    background-color: #212529;
+    color: white;
+}
+
+.header-image {
+position: relative;
+}
+
+.header-image > img, .overlay-text {
+    position:absolute;
+    margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+    
+}
+
+@media (min-width: 992px) {
+    .image-lg {
+        width: 50%;
+    }  
+}
